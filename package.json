@@ -1,0 +1,20 @@
+{
+  "name": "react-vite-mfe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/host",
+    "packages/remote"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "preview": "npm run preview --workspaces",
+    "stop": "kill-port --port 3000,3001"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "create-vite": "^5.1.0",
+    "kill-port": "^2.0.1"
+  }
+}

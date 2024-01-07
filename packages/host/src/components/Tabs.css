@@ -1,0 +1,17 @@
+.tabs {
+    display: inline-block;
+}
+
+.tab-container {
+    display: inline-block;
+    width: 50px;
+}
+
+.tab {
+    cursor: pointer;
+}
+
+.selected {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
